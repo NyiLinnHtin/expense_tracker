@@ -1,10 +1,8 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 import 'package:expense_tracker/widgets/expenses.dart';
 
 ColorScheme kColorScheme =
-    ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 90, 6, 146));
+    ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 90, 6, 146));
 void main() {
   runApp(
     MaterialApp(
